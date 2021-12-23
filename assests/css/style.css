@@ -64,4 +64,9 @@ h1, h2 {
     height:400px;
     width:100%;
     background-color: #ffffff;
+    color: #681e2a;
+}
+
+#home h2 {
+    color:#681e2a;
 }
