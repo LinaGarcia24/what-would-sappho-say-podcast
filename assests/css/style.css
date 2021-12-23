@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Jacques-Francois", sans-serif;
+    font-weight: 400;
+    color: #f9e7e9;
+    background-color: #681e2a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: "Jacques-Francois-Shadow", sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:#f9e7e9
+}
+
+#logo {
+    float:left;
+    font-size:300%;
+    margin-top:20px;
+    margin-left: 40px;
+    margin: 0 auto;
+}
+
+/*nav links*/
+
+#navigation {
+    font-size:100%;
+    letter-spacing:2px;
+}
+
+#navigation, #logo {
+    line-height: 75px;
+}
+
+#navigation li {
+    float:right;
+    list-style-type:none;
+    margin-right: 40px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #e5db24;
+    color: #e5db24;
+}
+
+/* home section */
+
+#home {
+    clear:both;
+    height:400px;
+    width:100%;
+    background-color: #ffffff;
+}
