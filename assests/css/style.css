@@ -25,8 +25,7 @@ h1, h2 {
 #logo {
     float:left;
     font-size:300%;
-    margin-top:20px;
-    margin-left: 40px;
+    padding-left: 40px;
     margin: 0 auto;
 }
 
@@ -66,7 +65,33 @@ h1, h2 {
     background-color: #ffffff;
     color: #681e2a;
 }
-
-#home h2 {
-    color:#681e2a;
+#home-welcome {
+    float: left;
+    height: 300px;
+    width: 50%;
 }
+
+#home-welcome h2 {
+    color:#681e2a;
+    padding-top:7%;
+    padding-left: 15%;
+    font-size:200%;
+}
+
+#home-welcome p {
+    padding-left: 15%;
+    font-size:175%;
+    padding-top:30px;
+}
+
+#home-vid {
+    width: 50%;
+    padding-top: 42.5px;
+    float:right;
+}
+
+#welcome-video {
+    float:right;
+    margin-right: 15%;
+}
+
