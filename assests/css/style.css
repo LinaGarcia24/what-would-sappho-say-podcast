@@ -91,7 +91,7 @@ h1, h2 {
     padding-top:20px;
 }
 
-/* rectangular border*/
+/* rectangular border around intro video*/
 
 #video-container {
     height: 350px;
@@ -107,3 +107,51 @@ h1, h2 {
     margin:17px 20px;
 }
 
+/* about me */
+
+#about-me {
+    clear:both;
+    height:400px;
+    width:100%;
+}
+
+#about-me-right {
+    float:right;
+    height: 300px;
+    width: 50%;
+}
+
+#about-me-right h2 {
+    float:right;
+    font-size:200%;
+    padding-top:7%;
+    padding-right: 10%;
+}
+
+#about-me-right > p {
+    clear:both;
+    float:right;
+    padding-right: 10%;
+    font-size:175%;
+    padding-top:30px;
+}
+
+#photo {
+    height:400px;
+    width: 50%;
+    padding-top:20px; 
+}
+
+/* rectangular border around photo*/
+
+#photo-container {
+    height: 350px;
+    width:600px;
+    border:2px solid #e5db24;
+    margin-top: 6px;
+    margin-left: 10%;
+}
+
+#about-me-photo {
+    margin:17px 20px;
+}
