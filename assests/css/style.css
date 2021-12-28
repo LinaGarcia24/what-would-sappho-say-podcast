@@ -74,24 +74,36 @@ h1, h2 {
 #home-welcome h2 {
     color:#681e2a;
     padding-top:7%;
-    padding-left: 15%;
+    padding-left: 10%;
     font-size:200%;
 }
 
 #home-welcome p {
-    padding-left: 15%;
+    padding-left: 10%;
     font-size:175%;
     padding-top:30px;
 }
 
 #home-vid {
+    height:400px;
     width: 50%;
-    padding-top: 42.5px;
     float:right;
+    padding-top:20px;
+}
+
+/* rectangular border*/
+
+#video-container {
+    height: 350px;
+    width:600px;
+    border:2px solid #e5db24;
+    float:right;
+    margin-top: 6px;
+    margin-right: 10%;
 }
 
 #welcome-video {
     float:right;
-    margin-right: 15%;
+    margin:17px 20px;
 }
 
