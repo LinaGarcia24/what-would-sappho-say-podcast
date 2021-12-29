@@ -60,7 +60,7 @@ h1, h2 {
 
 #home {
     clear:both;
-    height:400px;
+    height:600px;
     width:100%;
     background-color: #ffffff;
     color: #681e2a;
@@ -73,7 +73,7 @@ h1, h2 {
 
 #home-welcome h2 {
     color:#681e2a;
-    padding-top:7%;
+    padding-top:20%;
     padding-left: 10%;
     font-size:200%;
 }
@@ -81,7 +81,8 @@ h1, h2 {
 #home-welcome p {
     padding-left: 10%;
     font-size:175%;
-    padding-top:30px;
+    padding-top:10px;
+    text-align: justify;
 }
 
 #home-vid {
@@ -98,7 +99,7 @@ h1, h2 {
     width:600px;
     border:2px solid #e5db24;
     float:right;
-    margin-top: 6px;
+    margin-top: 10%;
     margin-right: 10%;
 }
 
@@ -111,7 +112,7 @@ h1, h2 {
 
 #about-me {
     clear:both;
-    height:400px;
+    height:600px;
     width:100%;
 }
 
@@ -132,8 +133,9 @@ h1, h2 {
     clear:both;
     float:right;
     padding-right: 10%;
-    font-size:175%;
-    padding-top:30px;
+    font-size:120%;
+    padding-top:10px;
+    text-align: justify;
 }
 
 #photo {
@@ -148,7 +150,7 @@ h1, h2 {
     height: 350px;
     width:600px;
     border:2px solid #e5db24;
-    margin-top: 6px;
+    margin-top: 105px;
     margin-left: 10%;
 }
 
