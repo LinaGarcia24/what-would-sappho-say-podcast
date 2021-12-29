@@ -160,8 +160,76 @@ h1, h2 {
 /*episodes and books*/
 
 #episodes-and-books {
-    height:600px;
+    height:500px;
     width:100%;
     background-color: #ffffff;
     color: #681e2a;
+    text-align: center;
+    padding-top:100px;
 }
+
+#episodes {
+    float: left;
+    width: 33%;
+}
+
+#books {
+    float: right;
+    width: 33%;
+}
+
+#icon-center {
+    width:33%;
+    float:left;
+}
+
+#episodes-and-books h2 {
+    clear:both;
+    color:#681e2a;
+    font-size:200%;
+}
+
+#episode-links {
+    list-style-type: none;
+    font-size: 150%;
+    color: #681e2a;
+}
+
+#episode-links a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#episode-links a:hover {
+    border-bottom: 2px solid #681e2a;
+}
+
+#book-links {
+    list-style-type: none;
+    font-size: 150%;
+    color: #681e2a;
+}
+
+#book-links a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#book-links a:hover {
+    border-bottom: 2px solid #681e2a;
+}
+
+/* square border around podcast icon*/
+
+#icon-container {
+    width:350px;
+    height:350px;
+    border: 2px solid #e5db24;
+    margin: 0 auto;
+}
+
+#icon {
+    background: url('../images/wwss-icon.jpg') no-repeat center center;
+    height:100%;
+}
+
