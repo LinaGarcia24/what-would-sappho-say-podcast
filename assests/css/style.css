@@ -233,3 +233,33 @@ h1, h2 {
     height:100%;
 }
 
+/* footer */
+
+footer {
+    height:100px;
+}
+
+#email {
+    float:left;
+    padding-left:40px;
+    padding-top:25px;
+}
+
+.socials {
+    margin-left: 43%;
+}
+
+.socials li {
+    display:inline;
+}
+
+.socials i {
+    font-size: 200%;
+    padding-top: 5px;
+    margin: 25px;
+    color:#f9e7e9;
+}
+
+.socials i:hover {
+    color:#e5db24;
+}
