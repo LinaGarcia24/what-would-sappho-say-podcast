@@ -263,3 +263,37 @@ footer {
 .socials i:hover {
     color:#e5db24;
 }
+
+/* media queries */
+
+/* for larger to medium screens 1400px and down */
+@media screen and (max-width: 1400px) {
+
+    #navigation {
+        float:left;
+        padding-left:40px;
+    }
+
+    #home {
+        background-color: #ffffff;
+        height:1000px;
+        width:100%;
+    }
+
+    #home-welcome {
+        height:50%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    #video-container {
+        margin: 0;
+    }
+
+    #home-vid {
+        float: none;
+        height:50%;
+        margin: 0 auto;
+    }
+    
+}
