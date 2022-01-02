@@ -397,6 +397,77 @@ footer {
 /* for medium to small screens 1000px and below */
 @media screen and (max-width: 1000px) {
 
+    /* home section */
+
+    #home-vid {
+        width: 100%;
+    }
+
+    #video-container {
+        margin-right: 20%;
+    }
+
+    /* about me section */
+
+    #about-me {
+        height: 1500px;
+    }
+
+    #photo {
+        width:100%;
+    }
+
+    #photo-container {
+        margin: 0 auto;
+    }
+
+    /* episodes and links section */
+
+    #icon-center {
+        width:100%;
+    }
+
+    /* footer */
+
+    #email {
+        margin-left: 20%;
+    }
+
+}
+
+/* for small screens 700px and under */
+
+@media screen and (max-width:700px) {
+
+    /* header */
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #home-vid {
+        width: 100%;
+    }
+
+    #video-container {
+        margin-right: 6%;
+    }
     
-    
+    /* about me */
+
+    #about-me {
+        height: 1750px;
+    }
+
+    /* episodes and books */
+
+    #episodes-and-books {
+        height: 1100px;
+    }
+
+    /* footer */
+
+    #email {
+        margin-left: 7%;
+    }
 }
