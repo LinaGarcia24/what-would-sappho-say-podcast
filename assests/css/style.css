@@ -300,12 +300,13 @@ footer {
         padding-left: 12%;
     }
 
-    #home-vide {
+    #home-video {
         width: 100%;
     }
 
     #video-container {
-        margin:0;
+        margin-top:0;
+        margin-right:8%;
     }
 
     #home-vid {
@@ -378,8 +379,24 @@ footer {
 
     /* contact section */
 
+    #contact {
+        text-align: center;
+    }
+
+    #email {
+        margin-left:29%;
+    }
+
+    .socials {
+        margin:0;
+        text-align: left;
+    }
+
+}
+
+/* for medium to small screens 1000px and below */
+@media screen and (max-width: 1000px) {
+
     
-
-
-
+    
 }
