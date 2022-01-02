@@ -190,6 +190,7 @@ h1, h2 {
 }
 
 #episode-links {
+    padding-top:10px;
     list-style-type: none;
     font-size: 150%;
     color: #681e2a;
@@ -205,6 +206,7 @@ h1, h2 {
 }
 
 #book-links {
+    padding-top:10px;
     list-style-type: none;
     font-size: 150%;
     color: #681e2a;
@@ -274,6 +276,8 @@ footer {
         padding-left:40px;
     }
 
+    /* home and welcome vid section */
+
     #home {
         background-color: #ffffff;
         height:1000px;
@@ -300,9 +304,8 @@ footer {
         width: 100%;
     }
 
-
     #video-container {
-        margin: 0;
+        margin:0;
     }
 
     #home-vid {
@@ -311,16 +314,20 @@ footer {
         margin: 0 auto;
     }
 
+    /* about me and photo section */
+
     #about-me {
-        height:1300px;
+        height:1400px;
         width:100%;
     }
     
     #about-me-right {
         float:none;
+        height: fit-content;
         width:100%;
         margin: 5%;
-        padding:5%;
+        padding-top:5%;
+        padding-left:7%;
 
     }
 
@@ -334,19 +341,45 @@ footer {
         float:none;
         font-size: 150%;
         height: 50%;
-        padding:0;
+        padding-top:10px;
     }
 
     #photo {
         float: none;
         height:40%;
         margin: 0 auto;
-        padding-top: 2%;
     }
 
     #photo-container {
         margin:5%;
     }
+
+    /* episodes and books section */
+
+    #episodes-and-books {
+        height:1200px;
+        width: 100%;
+    }
+
+    #episodes {
+        float: none;
+        width:100%;
+    }
+
+    #icon-center {
+        float:none;
+        margin: 7% auto;
+    }
+
+    #books {
+        float:none;
+        width: 100%;
+    }
+
+    /* contact section */
+
+    
+
 
 
 }
