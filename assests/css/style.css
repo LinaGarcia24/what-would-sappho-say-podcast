@@ -152,9 +152,9 @@ h1, h2 {
 }
 
 #about-me-photo {
-    margin:25px;
+    margin:25px 32px;
     height:400px;
-    width:550px;
+    width:536px;
 }
 
 /*episodes and books*/
