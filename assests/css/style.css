@@ -268,7 +268,7 @@ footer {
 
 /* media queries */
 
-/* for larger to medium screens 1400px and down */
+/* for large to medium screens 1400px and down */
 @media screen and (max-width: 1400px) {
 
     #navigation {
@@ -395,6 +395,7 @@ footer {
 }
 
 /* for medium to small screens 1000px and below */
+
 @media screen and (max-width: 1000px) {
 
     /* home section */
@@ -469,5 +470,51 @@ footer {
 
     #email {
         margin-left: 7%;
+    }
+}
+
+/* for mobile screens */
+
+@media screen and (max-width:400px) {
+
+    /* header */
+
+    #navigation {
+        padding-left: 23px;
+    }
+    
+    #navigation li {
+        font-size: 100%;
+        margin-right:10px;
+        letter-spacing: 0;
+    }
+
+    #home {
+        width:400px;
+        height:800px;
+    }
+    
+    #home-welcome {
+        font-size: 80%;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* code kickstart from https://css-tricks.com/fluid-width-video/ */
+
+    #video-container {
+        position: relative;
+        border: none;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        width:100%;
+    }
+
+    #welcome-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
