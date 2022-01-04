@@ -502,14 +502,14 @@ footer {
         margin-bottom: 30px;
     }
 
-    /* code kickstart from https://css-tricks.com/fluid-width-video/ */
+    /* code from https://css-tricks.com/fluid-width-video/ */
 
     #video-container {
         position: relative;
-        border: none;
+        border: none; /* added by me */
         padding-bottom: 56.25%; /* 16:9 */
         height: 0;
-        width:100%;
+        width:100%; /* added by me */
     }
 
     #welcome-video {
