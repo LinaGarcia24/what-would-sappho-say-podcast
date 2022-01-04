@@ -489,9 +489,11 @@ footer {
         letter-spacing: 0;
     }
 
+    /* home */
+
     #home {
         width:400px;
-        height:800px;
+        height:700px;
     }
     
     #home-welcome {
@@ -517,4 +519,63 @@ footer {
         width: 100%;
         height: 100%;
     }
+
+    /* about me */
+
+    #about-me {
+        height:1450px;
+    }
+
+    #about-me-right {
+        font-size: 80%;
+        margin-left: 4%;
+        padding: 0;
+    }
+
+    #about-me-right h2 {
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+
+    #about-me-right p {
+        width:100%;
+    }
+
+    #photo {
+        width:400px;
+    }
+
+    #photo-container {
+        border: none;
+    }
+
+    #about-me-photo {
+        margin: 0;
+        width:482.4px;
+        height:360px;
+    }
+
+    /* episodes and books */
+
+    #episodes-and-books {
+        width:400px;
+        height:950px;
+        font-size: 80%;
+        padding-top: 50px;
+    }
+
+    #icon-container {
+        border:none;
+    }
+
+    /* footer */
+
+    .socials {
+        width:100%;
+        text-align: center;
+        margin-left:5%;
+    }
+
+
 }
