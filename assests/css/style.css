@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Jacques-Francois", sans-serif;
     font-weight: 400;
