@@ -181,7 +181,7 @@ h1, h2 {
 }
 
 #icon-center {
-    width:33%;
+    width:30%;
     float:left; /* code help from https://www.geeksforgeeks.org/how-to-float-three-div-side-by-side-using-css/ */
 }
 
