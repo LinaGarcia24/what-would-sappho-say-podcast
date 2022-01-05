@@ -402,18 +402,26 @@ footer {
 
     /* home section */
 
+    #home-welcome {
+        height: 45%;
+    }
+
+    #home {
+        height: 800px;
+    }
+
     #home-vid {
         width: 100%;
     }
 
     #video-container {
-        margin-right: 12%;
+        margin-right: 10%;
     }
 
     /* about me section */
 
     #about-me {
-        height: 1600px;
+        height: 1650px;
     }
 
     #photo {
@@ -425,6 +433,11 @@ footer {
     }
 
     /* episodes and links section */
+
+    #episodes-and-books {
+        padding-top: 85px;
+        height: 1100px;
+    }
 
     #icon-center {
         width:100%;
@@ -445,73 +458,41 @@ footer {
     /* header */
 
     #logo {
-        font-size: 250%;
+        font-size: 200%;
     }
-
-    #home-vid {
-        width: 100%;
-    }
-
-    #video-container {
-        margin-right: 6%;
-    }
-    
-    /* about me */
-
-    #about-me {
-        height: 1750px;
-    }
-
-    /* episodes and books */
-
-    #episodes-and-books {
-        height: 1100px;
-    }
-
-    /* footer */
-
-    #email {
-        margin-left: 7%;
-    }
-}
-
-/* for mobile screens */
-
-@media screen and (max-width:400px) {
-
-    /* header */
 
     #navigation {
-        padding-left: 23px;
-    }
-    
-    #navigation li {
-        font-size: 100%;
-        margin-right:10px;
+        margin:0;
+        float: left;
+        padding-left: 30px;
+        font-size: 80%;
         letter-spacing: 0;
+    }
+
+    #navigation li {
+        margin-right: 8px;
     }
 
     /* home */
 
     #home {
-        width:400px;
-        height:700px;
+        height: 800px;
     }
-    
+
     #home-welcome {
         font-size: 80%;
-        padding-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 15%;
+        margin-bottom:30%;
     }
 
     /* code from https://css-tricks.com/fluid-width-video/ */
 
     #video-container {
         position: relative;
-        border: none; /* added by me */
         padding-bottom: 56.25%; /* 16:9 */
         height: 0;
         width:100%; /* added by me */
+        border: none; /* added by me */
     }
 
     #welcome-video {
@@ -520,64 +501,59 @@ footer {
         left: 0;
         width: 100%;
         height: 100%;
+        margin-left: 32px; /* added by me */
     }
-
+    
     /* about me */
 
     #about-me {
-        height:1450px;
+        height: 1950px;
     }
 
     #about-me-right {
         font-size: 80%;
-        margin-left: 4%;
-        padding: 0;
-    }
-
-    #about-me-right h2 {
-        float:none;
-        width:100%;
-        text-align:center;
-    }
-
-    #about-me-right p {
-        width:100%;
-    }
-
-    #photo {
-        width:400px;
+        margin-top:20%;
+        margin-bottom:30%;
+        text-align: center;
     }
 
     #photo-container {
-        border: none;
+        border:none;
     }
 
     #about-me-photo {
-        margin: 0;
-        width:482.4px;
-        height:360px;
+        margin:0;
+        width:320px;
+        height:239px;
     }
 
     /* episodes and books */
 
     #episodes-and-books {
-        width:400px;
-        height:950px;
+        height: 1100px;
         font-size: 80%;
-        padding-top: 50px;
     }
 
     #icon-container {
         border:none;
     }
 
-    /* footer */
-
-    .socials {
-        width:100%;
-        text-align: center;
-        margin-left:5%;
+    #icon {
+        margin-right: 30px;
     }
 
+    #books {
+        margin-top: 15%;
+    }
 
+    /* footer */
+
+    #email {
+        margin:0;
+        padding-left:25px;
+    }
+
+    .socials {
+        text-align: center;
+    }
 }
