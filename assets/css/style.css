@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     color: #f9e7e9;
     background-color: #681e2a;
-    overflow-x: hidden;
+    overflow-x: hidden; /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 }
 
 /* headings and logo */
