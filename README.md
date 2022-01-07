@@ -51,7 +51,7 @@ The users of this website will be able to find all the information they need for
     <li>
     <h3>Contact Section</h3>
     <ul>
-    <li>The contact section offers four different ways for the user to connect with the content creator: email, twitter, goodreads, and youtube</li>
+    <li>The contact section offers four different ways for the user to connect with the content creator: email, Twitter, Goodreads, and Youtube</li>
     <li>Like in the navigation, the links highlight yellow when they are hovered over so the user knows that they can interact with the links</li>
     <li>This section is important to the user as it encourages them to reach out to the content creator and gives them options to connect if they so wish to</li>
     </ul>
@@ -62,7 +62,7 @@ The users of this website will be able to find all the information they need for
 <h2>Testing</h2>
 <hr>
 <ul>
-<li>I tested that this page works in different browsers: Chrome, Firefox,Microsoft Edge</li>
+<li>I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge, Safari</li>
 <li>I confirmed that this project is responsive on different size standard screens by using the measurements listed in Am I responsive and by using the devtools</li>
 <li>I have confirmed that every internal link works and that every external link opens in a new tab or in the appropiate application (mobile) and does not take the user out of the page</li>
 </ul>
@@ -96,7 +96,7 @@ The users of this website will be able to find all the information they need for
 </li>
 </ul>
 <h3>Unfixed Bugs</h3>
-<p>The mobile display on the iphone still allows for horizontal scroll and the alignment of the media is off</p>
+<p>The mobile display on the iPhone X and above still allows for horizontal scroll and the alignment of the media is off</p>
 
 <h2>Deployment</h2>
 <hr>
@@ -118,7 +118,7 @@ The users of this website will be able to find all the information they need for
     <li>Guiding code for header, center icon, and footer was derived from the Love Running project.</li>
     <li>One line of code that helped hide the overflow on the x axis is from <a href= "https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp">W3Schools.com</a> </li>
     <li>One line of code that helped me center the icon in the episode and books section is from <a href= "https://www.geeksforgeeks.org/how-to-float-three-div-side-by-side-using-css/">geeksforgeeks.org</a></li>
-    <li>Code that helped me fit the youtube video in a small mobile screen without ruining the aspect ratio came from <a href= "https://css-tricks.com/fluid-width-video/">css-tricks.com</a></li>
+    <li>Code that helped me fit the Youtube video in a small mobile screen without ruining the aspect ratio came from <a href= "https://css-tricks.com/fluid-width-video/">css-tricks.com</a></li>
 </ul>
 
 <h3>Media</h3>

@@ -76,7 +76,7 @@ h1, h2 {
     width: 50%;
 }
 
-#home-welcome h2 {
+h2 {
     color:#681e2a;
     padding-top:20%;
     padding-left: 10%;
@@ -127,8 +127,9 @@ h1, h2 {
 
 #about-me-right h2 {
     float:right;
-    font-size:200%;
     padding-right: 10%;
+    padding-top: 0;
+    color:#f9e7e9;
 }
 
 #about-me-right > p {
@@ -173,11 +174,13 @@ h1, h2 {
 
 #episodes {
     float: left;
-    width: 33%;
 }
 
 #books {
     float: right;
+}
+
+#episodes, #books {
     width: 33%;
 }
 
@@ -188,39 +191,22 @@ h1, h2 {
 
 #episodes-and-books h2 {
     clear:both;
-    color:#681e2a;
-    font-size:200%;
+    padding-top: unset;
 }
 
-#episode-links {
+.links {
     padding-top:10px;
     list-style-type: none;
     font-size: 150%;
     color: #681e2a;
 }
 
-#episode-links a {
+.links a {
     text-decoration: none;
     color:inherit;
 }
 
-#episode-links a:hover {
-    border-bottom: 2px solid #681e2a;
-}
-
-#book-links {
-    padding-top:10px;
-    list-style-type: none;
-    font-size: 150%;
-    color: #681e2a;
-}
-
-#book-links a {
-    text-decoration: none;
-    color:inherit;
-}
-
-#book-links a:hover {
+.links a:hover {
     border-bottom: 2px solid #681e2a;
 }
 
