@@ -96,7 +96,7 @@ The users of this website will be able to find all the information they need for
 </li>
 </ul>
 <h3>Unfixed Bugs</h3>
-<p>The mobile display on the iPhone X and above still allows for horizontal scroll and the alignment of the media is off</p>
+<p>No unfixed bugs.</p>
 
 <h2>Deployment</h2>
 <hr>
@@ -116,7 +116,8 @@ The users of this website will be able to find all the information they need for
 <h3>Content</h3>
 <ul>
     <li>Guiding code for header, center icon, and footer was derived from the Love Running project.</li>
-    <li>One line of code that helped hide the overflow on the x axis is from <a href= "https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp">W3Schools.com</a> </li>
+    <li>One line of code that helped hide the overflow on the x axis is from <a href= "https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp">W3Schools.com</a></li>
+    <li>Two lines of code that helped me eliminate the overflow on the x axis for mobile screens is from <a href= "https://stackoverflow.com/questions/15879710/disabling-horizontal-scroll-on-an-iphone-website">stackoverflow.com</a></li>
     <li>One line of code that helped me center the icon in the episode and books section is from <a href= "https://www.geeksforgeeks.org/how-to-float-three-div-side-by-side-using-css/">geeksforgeeks.org</a></li>
     <li>Code that helped me fit the Youtube video in a small mobile screen without ruining the aspect ratio came from <a href= "https://css-tricks.com/fluid-width-video/">css-tricks.com</a></li>
 </ul>
