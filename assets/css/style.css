@@ -18,7 +18,7 @@ body {
     font-weight: 400;
     color: #f9e7e9;
     background-color: #681e2a;
-    overflow-x: hidden; /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+    overflow-x: hidden; /* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 }
 
 /* headings and logo */
@@ -354,6 +354,10 @@ footer {
         width: 100%;
     }
 
+    #episodes-and-books h2 {
+        padding-left: 0;
+    }
+
     #episodes {
         float: none;
         width:100%;
@@ -605,4 +609,34 @@ footer {
     }
 
     
+}
+
+/* for smaller mobile screens 320px and down */
+
+@media screen and (max-width:320px) {
+    /* header */
+    #navigation {
+        font-size: 80%;
+    }
+
+    /* about me */
+    #about-me {
+        height: 1950px;
+    }
+
+    #about-me-photo {
+        margin: unset;
+    }
+
+    /* episodes and books */
+    
+    #icon {
+        margin-right:30px;
+    }
+
+    /* footer */
+
+    #email {
+        padding-left: 8%;
+    }
 }
