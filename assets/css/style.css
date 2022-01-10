@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 
+/* used love running project code as a starting point for header and nav */
+
 * {
     margin:0;
     padding: 0;
@@ -37,7 +39,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
-/*nav links*/
+/* nav links */
 
 #navigation {
     font-size:100%;
@@ -222,6 +224,8 @@ h2 {
     margin: 0 auto;
 }
 
+/* used love running project code as guidance for center icon */
+
 #icon {
     background: url('../images/wwss-icon.jpg') no-repeat center center;
     height:100%;
@@ -238,6 +242,8 @@ footer {
     padding-left:40px;
     padding-top:25px;
 }
+
+/* used love running project code as a starting point for social media links in footer */
 
 .socials {
     margin-left: 43%;
